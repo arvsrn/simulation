@@ -4,7 +4,7 @@ from time import time
 from typing import Tuple, List
 from vector import Vec2
 import math
-from random import choice
+from random import *
 
 def hex_to_rgb(h: str):
     return list(int(h[i:i+2], 16) / 255 for i in (0, 2, 4))
